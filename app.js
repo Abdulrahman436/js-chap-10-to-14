@@ -198,3 +198,62 @@
 //     console.log("OMG today weather is so cool")
 // }
 
+
+
+// ans 11
+
+// let firstnum = 32
+// let secnum = 22
+// let operation = prompt ("operation")
+
+// if (operation == "+"){
+//     console.log(firstnum + secnum)
+// }
+// else if (operation == "/"){
+//     console.log(firstnum / secnum)
+// }
+// else if (operation == "-"){
+//     console.log(firstnum - secnum)
+// }
+// else {
+//     console.log("invalid operator")
+// }
+
+
+
+
+// let alp = 'u'
+// console.log(alp.charCodeAt())
+
+// if (alp.charCodeAt() > 65 && alp.charCodeAt()< 91){
+//     console.log("it is a capital alphaet")
+// }
+// else if (alp.charCodeAt() >= 97 && alp.charCodeAt()< 123){
+//     console.log("it is a small alphaet")
+// }
+
+
+
+
+let time = 1600
+
+if (time == 1900){
+    console.log("7pm")
+}
+else if (time >= 0 && time < 1200){
+    console.log("good morning")
+}
+else if (time >= 1200 && time < 1700){
+    console.log("good afternoon")
+}
+else if (time >= 1700 && time < 2100){
+    console.log("good evening")
+}
+else if (time >= 2100 && time < 2359){
+    console.log("good night")
+}
+
+
+
+
+
